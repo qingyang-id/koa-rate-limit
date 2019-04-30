@@ -1,0 +1,29 @@
+{
+  "name": "koa-rate-limit-demo",
+  "version": "1.0.0",
+  "description": "api rate limit demo",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/start.js"
+  },
+  "keywords": [
+    "leaky bucket",
+    "token bucket",
+    "rate limit",
+    "koa",
+    "nodejs",
+    "api"
+  ],
+  "author": "yq",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.4",
+    "koa": "^2.7.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0",
+    "koa2-cors": "^2.0.6",
+    "log4js": "^4.1.0",
+    "request": "^2.88.0",
+    "uuid": "^3.3.2"
+  }
+}
